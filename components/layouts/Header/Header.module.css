@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-image: url('../../../img/headerBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main {
+  position: relative;
+  z-index: 1000;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}

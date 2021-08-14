@@ -1,0 +1,34 @@
+.content {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content h4 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content a {
+  width: 15%;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button button {
+  outline: none;
+}

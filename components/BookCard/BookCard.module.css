@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f3f2f1;
+  padding: 30px 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  height: 320px;
+}
+
+.img {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.category {
+  color: #bcc0cf;
+  font-size: 12px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #190f0f;
+  width: 150px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 1.5rem;
+}
+
+.authors {
+  width: 160px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 1.5rem;
+  color: #bcc0cf;
+}
+
+.author {
+  color: #bcc0cf;
+  font-size: 14px;
+  display: inline;
+}

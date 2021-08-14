@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-image: url('../../../img/loupe.svg');
+  background-repeat: no-repeat;
+  background-position: right 7px center;
+  background-size: 2.5%;
+}
+
+.input input:focus {
+  border: none;
+  outline: none;
+}
+
+.button {
+  outline: none;
+  border: none;
+  margin-left: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}

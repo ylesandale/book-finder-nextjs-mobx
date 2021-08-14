@@ -1,0 +1,23 @@
+.select {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.select p {
+  color: #dad5d4;
+  margin-right: 5px;
+}
+
+.select select {
+  width: 60%;
+  padding: 7px;
+  border: none;
+  outline: none;
+}
+
+.select select:focus {
+  border: none;
+  outline: none;
+}
